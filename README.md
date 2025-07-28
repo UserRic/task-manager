@@ -1,3 +1,36 @@
+# Task Manager App
+A simple web-based task management system built with Laravel and MySQL.
+
+## Tech Stack
+- Laravel 12
+- PHP 8
+- MySQL
+- Blade Templates
+- Laravel Breeze (Authentication scaffolding)
+- Tailwind CSS
+- Vite (for asset bundling)
+
+## Screenshots
+### Login Page
+<img width="488" height="378" alt="Screenshot 2025-07-28 220232" src="https://github.com/user-attachments/assets/eeb04448-0823-43ff-ad95-ea208e584886" />
+
+### Dashboard
+<img width="860" height="406" alt="Screenshot 2025-07-28 220506" src="https://github.com/user-attachments/assets/220b47b2-5021-4f79-94aa-0f0d09714f4f" />
+<img width="857" height="325" alt="Screenshot 2025-07-28 220543" src="https://github.com/user-attachments/assets/0b71481e-b512-4a09-9f7f-7290be13bd26" />
+
+
+## Installation
+
+```bash
+git clone https://github.com/UserRic/task-manager.git
+cd task-manager
+composer install
+cp .env.example .env
+php artisan key:generate
+npm install && npm run dev
+php artisan migrate
+php artisan serve
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
